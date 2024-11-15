@@ -10,4 +10,9 @@ public class HomeController {
 	public String happy() {
 		return "Hello Happy";
 	}
+	
+	@GetMapping("/show")
+	public String showWishMsg() {
+		return "Show wish message";
+	}
 }
