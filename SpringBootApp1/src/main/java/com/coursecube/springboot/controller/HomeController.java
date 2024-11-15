@@ -15,4 +15,9 @@ public class HomeController {
 	public String showWishMsg() {
 		return "Show wish message";
 	}
+	
+	@GetMapping("/show")
+	public String welcome() {
+		return "Welcome to SpringBoot";
+	}
 }
